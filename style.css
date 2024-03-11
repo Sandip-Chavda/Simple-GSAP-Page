@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  color: rgb(45, 69, 4);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(232, 254, 38);
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px;
+}
+
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav h3 {
+  font-size: 1.5rem;
+}
+
+#nav a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#main h1 {
+  font-size: 5.5rem;
+  color: rgb(45, 69, 4);
+  line-height: 6rem;
+  /* background-color: blue; */
+  width: 70%;
+  margin-left: 15%;
+  position: relative;
+  z-index: 90;
+}
+
+#main h1:nth-child(2) {
+  margin-top: 6rem;
+}
+
+#main h1:nth-child(3) {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  /* text-decoration: -webkit-dashed; For WebKit-based browsers */
+  /* text-decoration: -moz-dashed; */
+}
+
+.line3 {
+  text-align: end;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 2rem;
+  height: 5rem;
+}
+
+.link1 {
+  text-decoration: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 3rem;
+  border: 0.2rem solid rgb(45, 69, 4);
+  background-color: rgb(45, 69, 4);
+  color: rgb(232, 254, 38);
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: transform 0.4s ease;
+}
+
+.link1:hover {
+  transform: scale(0.9);
+}
+
+.logo {
+  font-weight: 900 !important;
+  font-size: 1.7rem !important;
+}
+
+.link2 {
+  text-decoration: none;
+  padding: 0.8rem 1.8rem; /* Adjust padding as needed */
+  border-radius: 3rem;
+  border: 0.2rem solid rgb(45, 69, 4);
+  background-color: rgb(232, 254, 38);
+  color: rgb(45, 69, 4);
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: transform 0.4s ease;
+}
+
+.link2:hover {
+  transform: scale(0.9);
+}
+
+::selection {
+  background-color: rgb(45, 69, 4); /* Change to the desired color */
+  color: rgb(232, 254, 38); /* Change to the desired text color */
+}
